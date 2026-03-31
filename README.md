@@ -1,7 +1,6 @@
 # ITNPAI2 Computer Vision
 # Spring 2026 Assignment
-# Ensemble Object Detection: Combining YOLOv8 and Faster R-CNN
-with Weighted Box Fusion on the COCO 2017 Benchmark
+# Ensemble Object Detection: Combining YOLOv8 and Faster R-CNN with Weighted Box Fusion on the COCO 2017 Benchmark
 # Student_ID: 3540289
 
 ## Abstract
