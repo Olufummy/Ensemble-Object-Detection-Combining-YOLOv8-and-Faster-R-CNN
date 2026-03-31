@@ -6,7 +6,7 @@ ITNPAI2 Computer Vision
 Spring 2026 Assignment
 Ensemble Object Detection: Combining YOLOv8 and Faster R-CNN
 with Weighted Box Fusion on the COCO 2017 Benchmark
-Student_ID: 3540389
+Student_ID: 3540289
 
 ## Abstract
 This report covers my implementation and evaluation of an ensemble object detection system that combines YOLOv8-m and Faster R-CNN (ResNet-50 FPN v2) on the COCO 2017 validation set. The core idea was straightforward: these two architectures have very different strengths and failure modes, so fusing their outputs might give better results than either model alone. To merge the detections I used Weighted Box Fusion (WBF), which averages overlapping bounding boxes weighted by confidence rather than simply throwing away lower-scoring ones the way NMS does.
